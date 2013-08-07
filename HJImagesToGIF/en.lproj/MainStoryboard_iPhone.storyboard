@@ -91,25 +91,13 @@
         </scene>
     </scenes>
     <resources>
-        <image name="frame1.png" width="640" height="960"/>
-        <image name="frame2.png" width="640" height="960"/>
-        <image name="frame3.png" width="640" height="960"/>
-        <image name="frame4.png" width="640" height="960"/>
-        <image name="frame5.png" width="640" height="960"/>
-        <image name="frame6.png" width="640" height="960"/>
+        <image name="frame1.png" width="216" height="324"/>
+        <image name="frame2.png" width="216" height="324"/>
+        <image name="frame3.png" width="216" height="324"/>
+        <image name="frame4.png" width="216" height="324"/>
+        <image name="frame5.png" width="216" height="324"/>
+        <image name="frame6.png" width="216" height="324"/>
     </resources>
-    <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="testBtnClicked:"/>
-                <relationship kind="outlet" name="resultImage" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
