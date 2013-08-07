@@ -21,3 +21,8 @@ Save to photo album
 ![alt text](https://raw.github.com/HarrisonJackson/HJImagesToGIF/master/frame5.png "Frame 1")
 ![alt text](https://raw.github.com/HarrisonJackson/HJImagesToGIF/master/frame6.png "Frame 1")
 
+Copyright 2013 Harrison Jackson
+http://harrisonjackson.us
+
+Feel free to use however you want - if you make any improvements submit a pull request!
+
