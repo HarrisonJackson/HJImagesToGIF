@@ -8,9 +8,30 @@ Convert image array to animated GIF
 [HJImagesToGIF saveGIFFromImages:images toPath:path WithCallbackBlock:nil];
 
 ```
-Save to photo album
+### Save to photo album
 ```
 [HJImagesToGIF saveGIFToPhotoAlbumFromImages:images WithCallbackBlock:nil];
+
+```
+### Example Usage
+```
+    NSString *tempPath = [NSHomeDirectory() stringByAppendingPathComponent:
+                          [NSString stringWithFormat:@"puppy.gif"]];
+    
+    NSArray * images = [NSArray arrayWithObjects:[UIImage imageNamed:@"frame1.png"],
+                        [UIImage imageNamed:@"frame2.png"],
+                        [UIImage imageNamed:@"frame3.png"],
+                        [UIImage imageNamed:@"frame4.png"],
+                        [UIImage imageNamed:@"frame5.png"],
+                        [UIImage imageNamed:@"frame6.png"], nil];
+    
+    [HJImagesToGIF saveGIFFromImages:images toPath:tempPath WithCallbackBlock:^{
+        NSLog(@"Saved to file!");
+    }];
+    
+    [HJImagesToGIF saveGIFToPhotoAlbumFromImages:images WithCallbackBlock:^{
+        NSLog(@"Saved to album!");
+    }];
 
 ```
 ![alt text](https://raw.github.com/HarrisonJackson/HJImagesToGIF/master/hj_temp.gif "Animated GIF")
